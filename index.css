@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #C1A5A9;
+    background-color: #c0f5f5;
 }
 
 .description{
@@ -21,7 +21,7 @@ body{
 }
 
 .description p{
-    padding: 0 265px;
+    padding: 0 26px;
     font-size: large;
 }
 
@@ -40,7 +40,7 @@ body{
 .home-image h1{
     text-align: center;
     font-size:40px;
-    padding: 150px 250px;
+    padding: 150px 20px;
     text-shadow: 4px 4px 2px black;
     color: white;
 }
@@ -48,17 +48,26 @@ body{
 .features-box{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 10px;
-    background-color: #E6DDE1;
-    justify-content: space-around;
-
+    grid-column-gap: 40px;
+    padding-inline: 40px;
+    background-color: #e1e7bd;
+    justify-content:space-between;
 }
 
 .features{
+    border-radius: 5px;
     padding: 30px;
     text-align: center;
-    border: 1px solid black;
-    margin: 40px 80px;
+    border: 1px solid rgb(117, 10, 10);
+    background: rgb(255, 218, 218);
+    margin-block-end: 40px;
+}
+
+#feat{
+    background: #e1e7bd;
+    text-align: center;
+    padding-block: 15px 20px;
+    /* display: inline-block; */
 }
 
 .about{
